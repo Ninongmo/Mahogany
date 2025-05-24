@@ -1,0 +1,613 @@
+/*sa tanang body ni nga html files*/
+
+body{
+    background-color: #f5f6fa; /* Soft light gray-blue */
+}
+
+/* css style sa hr or horizontal line kadtong linya*/
+hr{
+    background-color: #d1d1d1;
+    padding: 1px;   
+    width: 100%;
+}
+
+/* para ni sa header */
+
+.header {
+    display: flex;
+    align-items: center;
+}
+.header img {
+    height: 100px;
+    width: 150px;
+}
+.header h1{
+    font-weight: bold;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d7be5; /* Friendly blue */
+    font-size: 60px;
+}
+
+/* css style sa footer */
+
+.footer p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #2d7be5;
+}
+
+
+/* para ni sa links ubos sa header */
+
+.links {
+    text-align: right;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d7be5;
+    padding: 10px;
+}
+
+.links a:hover {
+    color: #ff9800; /* Orange accent */
+}
+
+/*css style sa log in na html*/
+
+.login-css {
+    background-color: #fff;
+    border: 2px solid #d1d1d1;
+    border-radius: 15px;
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: center;
+}
+.login-css p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.login-css label {
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-css input[type="text"],
+.login-css input[type="password"]{
+    margin: 2px;
+    padding: 5px;
+    border:1px solid #bdbdbd;
+    border-radius:12px;
+}
+
+.login-css input[type="submit"]{
+    text-align: center;
+    background-color: #2d7be5;
+    border-radius: 12px;
+    border: 1px solid #bdbdbd;
+    width: 60px;
+    padding: 5px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-css input[type="submit"]:hover {
+    background-color: #ff9800;
+}
+
+
+
+/* css style sa company nga html */ 
+
+.company-css {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.company-css p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+/* css style sa index na html */
+
+.index-css{
+    background-color: #e3eafc;
+    margin-top: 80px;
+    width: 80%;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.index-css table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-css td {
+    padding: 20px;
+}
+
+.index-css img {
+    width: 600px;
+    height: 250px;
+    border-radius: 15px;
+    border: 5px solid #bdbdbd;
+}
+
+.index-css img:hover {
+    transform: scale(1.1);
+}
+
+.index-css p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #222;
+}
+
+#index-css2 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* css style sa contact us na html */
+
+.contactus-css {
+    background-color: #e3eafc;
+    margin-top: 80px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px solid #bdbdbd;
+    border-radius: 10%;
+}
+
+#contactus-title {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.contactus-css img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.contactus-css h2 {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.contactus-css p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+}
+
+/* css style sa product variance na html */
+
+.variance-css{
+    background-color: #fffbe6; /* Very light yellow */
+    margin-top: 80px;
+    width: 80%;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.variance-css table {
+    width: 100%;
+    text-align: center;
+}
+
+.variance-css td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+.variance-css img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.variance-css img:hover {
+    transform: scale(1.05);
+}
+
+.variance-css p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#variance-css2 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+img.guitar-css {
+    width: 300px;
+    height: 150px;
+}
+
+/* css style sa kada product */
+
+.product-css{
+    background-color: #fff;
+    margin-top: 20px;
+    width: 90%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-css table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.product-css img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.product-css img:hover {
+    transform: scale(1.05);
+}
+
+.product-css p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+p.product-css2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2d7be5;
+}
+
+.product-css form {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.product-css input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.buttons input[type="submit"] {
+    background-color: #2d7be5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttons input[type="button"] {
+    background-color: #ddd;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttons input[type="submit"]:hover {
+    background-color: #ff9800;
+}
+
+.buttons input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+img.guitar2-css{
+    width: 400px;
+    height: 200px;
+}
+
+/* admin */
+
+#home {
+    text-decoration: none;
+    color: #2d7be5;
+}
+
+#home:hover {
+    color: #ff9800;
+}
+
+.admin-css p{
+    text-align: center;
+    color: #2d7be5;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* css sa transactions */
+
+.transaction-css table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+
+#transactions{
+    font-size: 30px;
+}
+
+.transaction-css th {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #2d7be5;
+}
+
+.transaction-css td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #2d7be5;
+}
+
+.transaction-css {
+    overflow-y: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #e3eafc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* css sa view products*/
+
+.view-css table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+#view-prods{
+    font-size: 30px;
+}
+
+
+.view-css th {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #2d7be5;
+    color: white;
+    background: #2d7be5;
+}
+
+.view-css td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #2d7be5;
+}
+
+.view-css img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.view-css {
+    max-width: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #e3eafc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* css sa billing */
+
+.billing-css {
+    background-color: #fffbe6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    margin: auto; 
+}
+
+.billing-css input,
+.billing-css select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #bdbdbd;
+    box-sizing: border-box;
+}
+
+.billing-css label {
+    display: block;
+    margin-bottom: 8px;
+    color: #222;
+    font-size: 12px;
+}
+
+.billing-css table {
+    width: 4in;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.billing-css table h2,
+.billing-css table h3 {
+    margin: 10px 0;
+}
+
+.billing-css table select,
+.billing-css table input[type="text"],
+.billing-css table input[type="password"],
+.billing-css table input[type="button"],
+.billing-css table input[type="submit"] {
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.billing-css table select[name="expiry-card-month"],
+.billing-css table select[name="expiry-card-year"] {
+    width: calc(50% - 2.5px);
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.billing-css input[type="button"] {
+    background-color: #2d7be5;
+    color: white;
+    cursor: pointer;
+    width: auto;
+}
+
+.billing-css input[type="button"]:hover,
+.billing-css input[type="submit"]:hover {
+    background-color: #ff9800;
+}
+
+td.align-right-billing {
+    text-align: right;
+}
+
+td.align-center-billing {
+    text-align: center;
+}
+
+/* order from css */
+
+.orderform-css table {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid #bdbdbd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+}
+
+.orderform-css table td,
+.orderform-css table th {
+    padding: 20px;
+    border: 3px solid #bdbdbd;
+}
+
+#proceed {
+    width: 80px; 
+    height: 30px; 
+    font-size: 14px; 
+}
+
+#select-product {
+    width: 120px; 
+    height: 30px; 
+    font-size: 14px; 
+}
+
+td.align-center-orderform {
+    text-align: center;
+}
+
+td.align-right-orderform {
+    text-align: right;
+}
+
+#order-css {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* order success css */
+
+.order-suc {
+    text-align: center;
+    background-color: #fffbe6;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:700px; 
+    margin: auto; 
+}
+
+.order-suc h1 {
+    color: #2d7be5; 
+}
+
+.order-suc p {
+    color: #555; 
+}
+
+.order-suc input[type="button"] {
+    padding: 7px 15px;
+    font-size: 14px;
+    background-color: #2d7be5; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-suc input[type="button"]:hover {
+    background-color: #ff9800;
+    color: white;
+}

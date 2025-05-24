@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="mahoganycharm.css">
+    <link rel="stylesheet" href="jquery/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="jquery/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script src="jquery/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="logo pic/Mahogany.webp" alt="Logo Image"/>
+            <h1>Mahogany</h1>
+        </div>
+        <hr>
+    </header>
+
+    <div class="links">
+            <a href="index.html">Products</a>
+            <a href="products-gallery.html">Products Gallery</a>
+            <a href="company.html">Company</a>
+            <a href="log-in.php">Login</a>
+            <a href="contactus.html">Contact Us</a>
+    </div>
+   
+    <div class="index-css">
+        <p id="index-css2">Mahogany Products</p>
+        <br>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <a href="bed.html"> <img src="mahogany pics/bed/Bed.jpg" alt="Bed"></a>
+                <p>BED</p>
+        </div>
+        <div class="item">
+            <a href="chair.html"> <img src="mahogany pics/chair/Chair.jpg" alt="Chair"></a>
+                <p>CHAIR</p>
+        </div>
+        <div class="item">
+            <a href="door.html"> <img src="mahogany pics/door/Door.jpg" alt="Door"></a>
+                <p>DOOR</p>
+        </div>
+        <div class="item">
+            <a href="vase.html"> <img src="mahogany pics/vase/Vase.jpg" alt="Vase"></a>
+                <p>VASE</p>
+        </div>
+        <div class="item">
+            <a href="guitar.html"> <img src="mahogany pics/guitar/Guitar.jpg" alt="Guitar"></a>
+                <p>GUITAR</p>
+        </div>
+        <div class="item">
+            <a href="table.html"> <img src="mahogany pics/table/Table.jpg" alt="Table"></a>
+                <p>TABLE</p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    rtl:true,
+    loop:true,
+    margin:30,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+    })
+    </script>
+        
+    <br><br><br><br>
+    <hr>
+    <div class="footer">
+        <p>&copy; 2025 John Emmanuell Sabuero. All Rights Reserved.</p>
+    </div>
+</body>
+</html>

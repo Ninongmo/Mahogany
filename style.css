@@ -1,0 +1,116 @@
+/* Mahogany-themed color palette */
+:root {
+  /* Primary colors */
+  --mahogany-brown: #73332D;      /* Rich mahogany wood color */
+  --mahogany-light: #A65A45;      /* Lighter mahogany tone */
+  --cream: #F5F1E8;               /* Warm cream background */
+  --dark-text: #2A2118;           /* Dark brown for text */
+  --accent-gold: #D4AF37;         /* Gold accent for luxury feel */
+  
+  /* Secondary colors */
+  --soft-beige: #E8DCC9;          /* Soft beige for backgrounds */
+  --olive-green: #5F6C37;         /* Complementary accent color */
+  --light-gray: #E5E5E5;          /* Light gray for subtle elements */
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--dark-text);
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: var(--mahogany-brown);
+  color: var(--cream);
+  padding: 1rem;
+}
+
+.header h1 {
+  color: var(--cream);
+}
+
+.links {
+  background-color: var(--mahogany-light);
+  padding: 0.8rem;
+}
+
+.links a {
+  color: var(--cream);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: var(--accent-gold);
+}
+
+.product-css {
+  background-color: var(--soft-beige);
+  border-collapse: collapse;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.product-css td {
+  padding: 1.5rem;
+  border: 1px solid var(--mahogany-light);
+}
+
+.login-css, .billing-css, .transaction-css, .view-css {
+  background-color: var(--soft-beige);
+  border: 2px solid var(--mahogany-brown);
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.login-css p, .transaction-css th#transactions, .view-css th#view-prods {
+  color: var(--mahogany-brown);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+  border: 1px solid var(--mahogany-light);
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+}
+
+input[type="submit"], button {
+  background-color: var(--mahogany-brown);
+  color: var(--cream);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: var(--mahogany-light);
+}
+
+table th {
+  background-color: var(--mahogany-brown);
+  color: var(--cream);
+  padding: 0.8rem;
+}
+
+table td {
+  background-color: var(--cream);
+  padding: 0.8rem;
+}
+
+.footer {
+  background-color: var(--mahogany-brown);
+  color: var(--cream);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
